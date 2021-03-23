@@ -1,2 +1,5 @@
-# taroBugDemo
-taro框架bug示例
+# taro框架bug示例 - 【百度小程序】
+
+### 1、点击list高亮闪烁问题
+
+### 2、flex:1 属性无效问题
