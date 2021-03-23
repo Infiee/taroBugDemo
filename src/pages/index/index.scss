@@ -1,11 +1,16 @@
-.index{
+.index {
   background-color: pink;
   height: 1000px;
 }
 
-.test-title{
+.test-h2 {
   font-size: 40px;
   font-weight: bold;
+  padding: 30px 30px;
+}
+
+.test-h3 {
+  font-size: 36px;
   padding: 30px 30px;
 }
 
@@ -21,7 +26,7 @@
   justify-content: center;
   width: 187px;
   height: 234px;
-  border: 1Px solid transparent;
+  border: 1px solid transparent;
   border-radius: 8px;
   background-color: #fff;
   position: relative;
@@ -40,5 +45,13 @@
   .price {
     font-size: 22px;
     color: #999999;
+  }
+}
+
+.flex-list {
+  display: flex;
+  .flex-item {
+    flex: 1;
+    background: gray;
   }
 }

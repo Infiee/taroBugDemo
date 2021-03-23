@@ -158,8 +158,15 @@ class Index extends Component {
 
     return (
       <View className="index">
-        <View className="test-title">测试Taro bug</View>
+        <View className="test-h2">【百度小程序】测试Taro bug</View>
+        <View className="test-h3">1、点击list高亮闪烁问题</View>
         <View className="gift-list">{listItems}</View>
+        <View className="test-h3">2、flex:1 属性无效问题</View>
+        <View className="flex-list">
+          <View className="flex-item">1</View>
+          <View className="flex-item">2</View>
+          <View className="flex-item">3</View>
+        </View>
       </View>
     );
   }
